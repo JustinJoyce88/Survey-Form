@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 150%;
+  background-attachment: fixed;
+  background-color: #a29bfe;
+  font-size: 1.2em;
+}
+
+form, h1, p {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  padding: 1em;
+}
+
+p {
+  padding: 1em;
+}
+
+#checkbox-label, #radio-label {
+  display: block;
+}
+
+label {
+  padding-bottom: .3em; 
+}
+
+div {
+  padding: .5em;
+}
+
+button {
+  width: 25%;
+  margin: .5em 0;
+}
+
+#survey-container {
+  background: #ccc9ff;
+  width: 50%;
+  margin: 0 auto;
+}
